@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700|Roboto+Mono:400,700');
+{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+body
+{
+	background: #24272E;
+
+}
+img{
+	background-color: transparent;
+	border-radius: 50%;
+}
+header
+{
+	background: white;
+	padding:20px;
+
+}
+header > h1{
+	color: #24272E;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Roboto Mono', monospace;
+}
+.score-board
+{	margin: 20px auto;
+	position: relative;
+	color: white;
+	font-size: 20px;
+	border-radius: 4px;
+	text-align: center;
+	padding: 25px 20px;
+	border:3px solid white;
+	width: 200px;
+	font-family: Asap, sans-serif;
+}
+.badge{
+	background: #E25840;
+	color: white;
+	font-size: 14px;
+	padding:2px 10px;
+	border-radius: 10px;
+}
+
+#user-label{
+	position: absolute;
+	top: 25px;
+	left: -25px;
+}
+#comp-label{
+	position: absolute;
+	top: 25px;
+	right: -29px;
+}
+.result
+{
+	font-size: 30px;
+	color: white;
+
+}
+.result > p{
+	font-weight: bold;
+	text-align: center;
+	font-family: Asap, sans-serif;
+}
+.choices{
+	background-color: transparent;
+	text-align: center;
+	margin-top: 50px;
+}
+.choice{
+	border:3px;
+	border-color: transparent;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 0px 15px;
+	transition: all 0.3s ease;
+}
+.choice:hover{
+	/* used for changing cursor to hand pointer*/ 
+	cursor:pointer;
+	//background:red;
+}
+#action-message{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 24px;
+	margin-top: 27x;
+	font-family: Asap, sans-serif;
+}
+.green-glow
+{
+	border:4px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+}
+.red-glow
+{
+	border:4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+}
+.grey-glow
+{
+	border:4px solid #fbb901;
+	box-shadow: 0 0 10px #fbb901;
+}
